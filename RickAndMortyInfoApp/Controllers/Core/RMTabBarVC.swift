@@ -28,6 +28,11 @@ class RMTabBarVC: UITabBarController {
         let nav4 = UINavigationController(rootViewController: settingsVC)
         
         
+        locationsVC.navigationItem.largeTitleDisplayMode = .automatic
+        charactersVC.navigationItem.largeTitleDisplayMode = .automatic
+        episodesVC.navigationItem.largeTitleDisplayMode = .automatic
+        settingsVC.navigationItem.largeTitleDisplayMode = .automatic
+        
         nav1.tabBarItem = UITabBarItem(title: "Locations", image: UIImage(systemName: "globe"), tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "Charachters", image: UIImage(systemName:"person.fill"), tag: 2)
         nav3.tabBarItem = UITabBarItem(title: "Episodes", image: UIImage(systemName:"tv"), tag:3)
