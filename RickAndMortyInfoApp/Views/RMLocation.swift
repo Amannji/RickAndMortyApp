@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RMLocation: UIView {
+class RMLocationView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.

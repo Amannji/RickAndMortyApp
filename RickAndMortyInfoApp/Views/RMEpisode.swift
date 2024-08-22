@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RMEpisode: UIView {
+class RMEpisodeView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
