@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to show and seacrh for episodes info
 class RMEpisodeVC: UIViewController {
 
     override func viewDidLoad() {

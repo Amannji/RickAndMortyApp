@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to navigate around settings
 class RMSettingsVC: UIViewController {
 
     override func viewDidLoad() {
